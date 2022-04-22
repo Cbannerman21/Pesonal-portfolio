@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    flex: wrap;
+    background-color: black;
+    height: 50px;
+    font-size:15px;
+    font-weight: bold;
+    justify-content: space-between; 
+    align-items: center;
+    color: white;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px;
+    min-width: 40vw;
+}
+
+.hero {
+    background-image: url('../assests/images/starwars.jpg');
+    background-color: lightgrey;
+    height: 400px;
+    background-position:center;
+    background-size:cover;
+    opacity: 0.6;
+}
+
+.nav-links a {
+    color: white;
+}
+
+.nav-links a:hover {
+    color: purple;
+}
+
+.about-me {
+    display: flex;
+    padding: 10px;
+}
+
+.about-me img {
+    height: 500px;
+    width: 350px;
+    object-fit: cover;
+    padding-left: 10px;
+}
+
+.about-me article {
+color: white;
+display: flex;
+width: 90vw;
+text-align: center;
+align-items: center;
+}
+
+.container {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    max-width:1200px;
+}
+
+.card {
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+}
+
+.card img {
+    width:500px;
+    height: 350px;
+    display:block;
+}
+#run-buddy {
+    height:300px;
+    width:960px;
+}
+.img-txt {
+    color: white;
+}
+#contact {
+    color: white;
+}
+ul.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin:0;
+}
+ul.contact-container li {
+    margin: 0 auto;
+}
+
+h2 {
+    color:white;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .about-me article {
+        display: block;
+    }
+    
+}
