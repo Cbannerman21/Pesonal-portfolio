@@ -8,7 +8,7 @@ HTML
 CSS
 
 ## Website
-https://github.com/Cbannerman21/Protfolio-project.git
+git@github.com:Cbannerman21/Protfolio-project.git
 
 ## Contributions
 Made by Christopher Bannerman
