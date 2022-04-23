@@ -87,6 +87,10 @@ align-items: center;
     height:300px;
     width:960px;
 }
+#trendingmusic {
+    height:300px;
+    width:960px;
+}
 .img-txt {
     color: white;
 }
@@ -107,6 +111,7 @@ h2 {
     color:white;
     text-decoration: underline;
 }
+
 
 @media screen and (max-width: 768px) {
     .about-me article {
